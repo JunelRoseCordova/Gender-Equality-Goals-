@@ -1,0 +1,139 @@
+/*I have changed a few things from the website's original design since I have learned more things about css*/
+/*I used Opera GX to test my code*/
+		body{ 
+			background-color: #edc7b7;
+			}
+		header{
+			background-color: #eee2dc;
+			margin: 20px 50px 0px 50px;
+			padding: 0px 10px 0px 10px;
+			box-shadow: 5px 10px 8px #888888;
+			}
+		p:nth-child(1){
+			font-family: Copperplate, fantasy; 
+			font-size: 50px; 
+			color: #ac3b61;
+			text-align: center;
+			margin: 0px 0px 0px 0px;
+			}
+		p:nth-child(2){
+			font-family: Copperplate, fantasy; 
+			font-size: 25px; 
+			color: #123c69;
+			text-align: center;
+			padding-top: -50px;
+			margin: -5px 0px 5px 0px;
+			}
+		nav{ 
+			margin: -15px 50px 0px 50px;
+			background-color: #ac3b61;
+			box-shadow: 5px 10px 8px #888888;
+			}
+		li{
+			display: inline;
+			margin: 0px 66px 0px 67px;
+			}
+		a{
+			font-weight: bold; 
+			font-family: Gillsans, sans-serif, fantasy; 
+			font-size: 20px; 
+			color: #eee2dc; 
+			}
+		a:link{
+			text-decoration: none;
+			padding: 1px;
+			}
+		a:hover{
+			color: #edc7b7;
+			}
+		a:visit{
+			color: #bab2b5;
+			}
+		article{
+			background-color: #eee2dc;
+			margin: -15px 50px 0px 50px;
+			padding: 2px 15px 2px 15px;
+			box-shadow: 5px 10px 8px #888888;
+			z-index: 2;
+			}
+		img:nth-of-type(1){
+			width: 250px;
+			height: auto;
+			margin: 5px 10px 5px 5px;
+			float: left;
+			}
+		h3{
+			color: #123c69;
+			padding-bottom:50px;
+			}
+		hr{
+			clear: left;
+			border: 2px solid #ac3b61;
+			margin: 0px -15px 0px -15px;
+			z-index: 5;
+			}
+		p{
+			font-family: Copperplate, fantasy;
+			clear: left;
+			color: #ac3b61;
+			font-size:30px;
+			}
+		img:nth-of-type(2){
+			position: relative;
+			width: 400px;
+			height: auto;
+			margin: -10px 10px 5px 5px;
+			float: right;
+			}
+		img:nth-of-type(3){
+			width: 400px;
+			height: auto;
+			margin: 5px 10px 5px 5px;
+			clear: right;
+			float: right;
+			}
+		h3:nth-of-type(3){
+			margin-top: -40px;
+			}
+		img:nth-of-type(4){
+			width: 400px;
+			height: auto;
+			margin: 5px 10px 5px 5px;
+			clear: right;
+			float: right;
+			}
+		h3:nth-of-type(4){
+			margin-top: -40px;
+			}
+		h3:nth-of-type(5){
+			margin-top: -40px;
+			}
+		h3:nth-of-type(6){
+			margin-top: -40px;
+			margin-bottom: -20px;
+			}
+		footer{
+			background-color: #ac3b61;
+			margin: 0px 50px 0px 50px;
+			padding: 0px 10px 0px 10px;
+			box-shadow: 5px 10px 8px #888888;
+			}
+		.container{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 25%;
+			}
+		.container img{
+			width: 70px;
+			}
+		.container img:hover{
+			background-color: #edc7b7;
+			}
+		video{
+			 width: 600px;
+			 height: 300px;
+			 frameborder: 0;
+			 display: block;
+			 margin: auto;
+			 }
